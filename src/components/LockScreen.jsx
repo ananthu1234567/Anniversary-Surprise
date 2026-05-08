@@ -4,7 +4,7 @@ import { Lock } from 'lucide-react';
 
 const LockScreen = ({ onUnlock }) => {
   const [password, setPassword] = useState('');
-  const secretAnswer = "0"; // Your secret code
+  const secretAnswer = "08052025"; // Your secret code
 
   const handleSubmit = (e) => {
     e.preventDefault();
