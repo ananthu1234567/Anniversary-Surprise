@@ -1,0 +1,21 @@
+.perspective-2000 {
+    perspective: 2000px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+
+/* Required for the Envelope 3D Flip */
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+/* Optional: Smooth scrolling for the reveal */
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+}
+
+/* Luxury font class */
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
